@@ -1,11 +1,9 @@
 from algos.bfs import BFS
 
 def main(graph):
-    print('hello main')
-    BFS(graph).execute()
+    BFS(graph).execute('A')
 
 if __name__ == '__main__':
-    print('hello world')
     graph = {
         'A': ['B', 'C'],
         'B': ['D', 'E'],
